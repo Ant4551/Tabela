@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Kart Graficznych</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 2px solid red;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        th {
+            background-color: limegreen;
+            color: white;
+        }
+        .highlight {
+            font-weight: bold;
+        }
+        .nvidia {
+            color: green;
+            background-color: lightblue;
+        }
+        .amd {
+            color: red;
+            background-color: lightblue;
+        }
+        .vram {
+            background-color: hotpink;
+        }
+        .footer {background-color: red;
+            font-weight: bold;}
+        .cooling {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption style="font-size: 1.5em; font-weight: bold; margin-bottom: 10px;">porownanie- Kart Graficznych Antoni Kapral</caption>
+        <thead>
+            <tr>
+                <th>Model karty graficznej</th>
+                <th>Taktowanie bazowe</th>
+                <th>Rozmiar pamięci</th>
+                <th>Szyna pamięci</th>
+                <th>Typ chłodzenia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- NVIDIA Cards -->
+            <tr>
+                <td class="highlight nvidia">RTX 2080</td>
+                <td>1515 MHz</td>
+                <td class="vram">8 GB</td>
+                <td>256-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="highlight nvidia">RTX 2070</td>
+                <td>1410 MHz</td>
+                <td class="vram">8 GB</td>
+                <td>256-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="highlight nvidia">RTX 2060</td>
+                <td>1365 MHz</td>
+                <td class="vram">6 GB</td>
+                <td>192-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="nvidia">GTX 1660</td>
+                <td>1785 MHz</td>
+                <td class="vram">6 GB</td>
+                <td>192-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="nvidia">GTX 1550</td>
+                <td>1860 MHz</td>
+                <td class="vram">4 GB</td>
+                <td>128-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="nvidia">GTX 1060</td>
+                <td>1506 MHz</td>
+                <td class="vram">6 GB</td>
+                <td>192-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="highlight nvidia">RTX 3090</td>
+                <td>1395 MHz</td>
+                <td class="vram">24 GB</td>
+                <td>384-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="highlight nvidia">RTX 3080</td>
+                <td>1440 MHz</td>
+                <td class="vram">10 GB</td>
+                <td>320-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="highlight nvidia">RTX 3070</td>
+                <td>1500 MHz</td>
+                <td class="vram">8 GB</td>
+                <td>256-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="nvidia">RTX 3060</td>
+                <td>1320 MHz</td>
+                <td class="vram">12 GB</td>
+                <td>192-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <!-- AMD Cards -->
+            <tr>
+                <td class="highlight amd">RX 6900 XT</td>
+                <td>2015 MHz</td>
+                <td class="vram">16 GB</td>
+                <td>256-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="highlight amd">RX 6800 XT</td>
+                <td>1825 MHz</td>
+                <td class="vram">16 GB</td>
+                <td>256-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="highlight amd">RX 6700 XT</td>
+                <td>2321 MHz</td>
+                <td class="vram">12 GB</td>
+                <td>192-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="amd">RX 6600</td>
+                <td>2044 MHz</td>
+                <td class="vram">8 GB</td>
+                <td>128-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="amd">RX 6500 XT</td>
+                <td>2310 MHz</td>
+                <td class="vram">4 GB</td>
+                <td>64-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="highlight amd">RX 7900 XTX</td>
+                <td>2300 MHz</td>
+                <td class="vram">24 GB</td>
+                <td>384-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="highlight amd">RX 7900 XT</td>
+                <td>2000 MHz</td>
+                <td class="vram">20 GB</td>
+                <td>320-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="highlight amd">RX 7800 XT</td>
+                <td>2124 MHz</td>
+                <td class="vram">16 GB</td>
+                <td>256-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+            <tr>
+                <td class="amd">RX 7700 XT</td>
+                <td>2171 MHz</td>
+                <td class="vram">12 GB</td>
+                <td>192-bit</td>
+                <td class="cooling">Aktywne</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5" class="footer">Karty Graficzne</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+
