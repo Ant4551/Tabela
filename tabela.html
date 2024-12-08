@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PL">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela Kart Graficznych</title>
+    <title></title>
     <style>
         table {
             width: 80%;
             border-collapse: collapse;
             margin: 20px auto;
             font-family: Arial, sans-serif;
+            border: 4px solid red; /* Set table border thickness to 4px */
         }
         th, td {
-            border: 2px solid red;
+            border: 4px solid red; /* Set cell border thickness to 4px */
             padding: 10px;
             text-align: center;
             font-weight: bold;
@@ -20,6 +21,7 @@
         th {
             background-color: limegreen;
             color: white;
+            font-family: "Times New Roman", Times, serif; /* Set font to Times New Roman */
         }
         .highlight {
             font-weight: bold;
@@ -35,8 +37,10 @@
         .vram {
             background-color: hotpink;
         }
-        .footer {background-color: red;
-            font-weight: bold;}
+        .footer {
+            background-color: red;
+            font-weight: bold;
+        }
         .cooling {
             background-color: orange;
         }
@@ -44,7 +48,9 @@
 </head>
 <body>
     <table>
-        <caption style="font-size: 1.5em; font-weight: bold; margin-bottom: 10px;">porownanie- Kart Graficznych Antoni Kapral</caption>
+        <caption style="font-size: 1.5em; font-weight: bold; margin-bottom: 10px;">
+            dane karty graficznej Antoni Kapral
+        </caption>
         <thead>
             <tr>
                 <th>Model karty graficznej</th>
@@ -195,8 +201,13 @@
             <tr>
                 <td colspan="5" class="footer">Karty Graficzne</td>
             </tr>
+            <tr>
+                <td colspan="5" class="footer">
+                    <a href="https://www.nvidia.com/" target="_blank">NVIDIA Official Website</a> | 
+                    <a href="https://www.amd.com/" target="_blank">AMD Official Website</a>
+                </td>
+            </tr>
         </tfoot>
     </table>
 </body>
 </html>
-
